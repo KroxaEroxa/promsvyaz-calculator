@@ -10,9 +10,7 @@ const Component = () => {
 }
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+    return (
     <div>
       <h2>Калькулятор</h2>
       <Component />
