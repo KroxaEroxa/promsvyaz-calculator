@@ -1,0 +1,62 @@
+body {
+  background-color: rgba(143, 191, 250, 0.652);
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+a {
+  color: rgb(28, 79, 130, 1);
+}
+
+li {
+  /* background-color: rgba(103, 127, 248, 0.504); */
+  border-style: hidden;
+  border-width: 1px 1px;
+  /* border-color: rgba(94, 120, 234, 0.934); */
+  /* margin: 1px; */
+  padding: 0px;
+}
+
+.main-container {
+  display: grid;
+  /* display: flexbox; */
+  max-width: 750px;
+  margin: 0px auto;
+}
+.stroki {
+  background-color: rgb(94, 94, 255);
+  display: flex;
+}
+
+.count-row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.widget {
+  display: grid;
+  grid-template-columns: 2fr 2fr 6fr;
+  background-color: rgba(103, 127, 248, 0.504);
+}
+
+.list-button {
+  background-color: rgb(115, 168, 233);
+  font-weight: 700;
+  padding: 3px 6px;
+  width: 100%;
+  border: 0;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.list-button:hover {
+  transition-duration: 0.4s;
+  background-color: rgb(86, 149, 225);
+}
