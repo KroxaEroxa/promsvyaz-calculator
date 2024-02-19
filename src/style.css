@@ -40,7 +40,7 @@ li {
 
 .widget {
   display: grid;
-  grid-template-columns: 2fr 2fr 6fr;
+  grid-template-columns: 2fr 2fr 6fr 6fr;
   background-color: rgba(103, 127, 248, 0.504);
 }
 
@@ -59,4 +59,16 @@ li {
 .list-button:hover {
   transition-duration: 0.4s;
   background-color: rgb(86, 149, 225);
+}
+.formuls {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin: 10px 0px;
+  padding: 0px 50px 0px 0px;
+}
+
+.formuls p {
+  margin: 0;
+  font-weight: 700;
 }

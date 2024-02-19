@@ -95,6 +95,17 @@ function App() {
           {/* Рабочее поле */}
           <img src={activeSortament[1].src} alt={activeSortament[1].name} />
         </div>
+        {/* ТРЕТЬЯ КОЛОНКА */}
+        <div className="formuls">
+          <p>Толщина листа:</p>
+          <input type="text" placeholder="0" />
+          <p>Длина:</p>
+          <input type="text" placeholder="0" />
+          <p>Ширина:</p>
+          <input type="text" placeholder="0" />
+          <p>Результат:</p>
+          <b> результатик</b>
+        </div>
       </div>
     </div>
   );
